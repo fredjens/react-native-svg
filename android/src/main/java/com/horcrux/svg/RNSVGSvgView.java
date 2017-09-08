@@ -126,6 +126,7 @@ public class RNSVGSvgView extends View {
                 mTargetTag,
                 type,
                 ev,
+                ev.getEventTime(),
                 ev.getX(),
                 ev.getY(),
                 mTouchEventCoalescingKeyHelper));
